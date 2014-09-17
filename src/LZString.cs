@@ -573,6 +573,7 @@ namespace lz_string_csharp
                     }
                     i += 3;
 
+                    enc1 = enc2 = enc3 = enc4 = 0; //re-set enc variables to zero so that they do not retain their values from previous iterations in the loop.
 
                     enc1 = (int)(Math.Round(chr1)) >> 2;
 
